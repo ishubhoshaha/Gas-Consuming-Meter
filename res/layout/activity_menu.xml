@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp" >
+
+    <Button
+        android:id="@+id/btnAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AA Power"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSUPCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUPCL"
+        android:color="#ffbf00" />
+
+    <Button
+        android:id="@+id/btnUPGDCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPGDCL" />
+
+    <Button
+        android:id="@+id/btnSUMMIT10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summit REB 10MW" />
+
+    <Button
+        android:id="@+id/btnSUMMIT33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summit REV 33MW" />
+
+    <Button
+        android:id="@+id/btnDORREN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DORREN Tangail 22MW" />
+
+    <Button
+        android:id="@+id/btnTONGI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tongi 80MW" />
+
+</LinearLayout>
